@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+
+		<PackageOutputPath>./nupkg</PackageOutputPath>
+
+		<Version>0.1.3</Version>
+		<PackageId>pergerch.MathPack</PackageId>
+		<Title>MathPack</Title>
+		<Description>Calculating things.</Description>
+		<PackageTags>math</PackageTags>
+		<PackageProjectUrl>https://github.com/pergerch/MathPack</PackageProjectUrl>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<RepositoryType>git</RepositoryType>
+		<RepositoryUrl>https://github.com/pergerch/MathPack.git</RepositoryUrl>
+		<Authors>pergerch</Authors>
+		<Company>pergerch</Company>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+
+		<EmbedAllSources>true</EmbedAllSources>
+		<IncludeSymbols>true</IncludeSymbols>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+		<PublishRepositoryUrl>true</PublishRepositoryUrl>  
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All" />
+	</ItemGroup>
+
+</Project>
