@@ -7,7 +7,7 @@
   <PropertyGroup>
 		<PackageOutputPath>..\..\.nuget</PackageOutputPath>
 
-		<Version>0.1.15</Version>
+		<Version>0.1.16</Version>
 		<PackageId>pergerch.MathPack</PackageId>
 		<Title>MathPack</Title>
 		<Description>Calculating things.</Description>
@@ -34,7 +34,7 @@
 
 	<ItemGroup>
 		<PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All" />
-		<PackageReference Include="NumSharp" Version="0.20.5" />
+		<PackageReference Include="NumSharp" Version="0.20.5" PrivateAssets="All" />
 	</ItemGroup>
 
 	<ItemGroup>
