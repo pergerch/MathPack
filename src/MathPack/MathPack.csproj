@@ -5,7 +5,7 @@
 
 		<PackageOutputPath>./nupkg</PackageOutputPath>
 
-		<Version>0.1.4</Version>
+		<Version>0.1.5</Version>
 		<PackageId>pergerch.MathPack</PackageId>
 		<Title>MathPack</Title>
 		<Description>Calculating things.</Description>
