@@ -7,7 +7,7 @@
   <PropertyGroup>
 		<PackageOutputPath>..\..\.nuget</PackageOutputPath>
 
-		<Version>0.1.14</Version>
+		<Version>0.1.15</Version>
 		<PackageId>pergerch.MathPack</PackageId>
 		<Title>MathPack</Title>
 		<Description>Calculating things.</Description>
@@ -23,7 +23,6 @@
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 
 		<EmbedAllSources>true</EmbedAllSources>
-		<EmbedUntrackedSources>true</EmbedUntrackedSources>
 		<IncludeSymbols>true</IncludeSymbols>
 		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
 		<PublishRepositoryUrl>true</PublishRepositoryUrl>
@@ -35,7 +34,7 @@
 
 	<ItemGroup>
 		<PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All" />
-		<PackageReference Include="PropertyChanged.Fody" Version="3.2.0" ExcludeAssets="All" />
+		<PackageReference Include="NumSharp" Version="0.20.5" />
 	</ItemGroup>
 
 	<ItemGroup>
