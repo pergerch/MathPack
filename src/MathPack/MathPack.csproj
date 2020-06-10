@@ -2,12 +2,9 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
-  </PropertyGroup>
-
-  <PropertyGroup>
 		<PackageOutputPath>..\..\.nuget</PackageOutputPath>
 
-		<Version>0.1.8</Version>
+		<Version>0.1.9</Version>
 		<PackageId>pergerch.MathPack</PackageId>
 		<Title>MathPack</Title>
 		<Description>Calculating things.</Description>
