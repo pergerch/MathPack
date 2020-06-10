@@ -7,14 +7,13 @@
   <PropertyGroup>
 		<PackageOutputPath>..\..\.nuget</PackageOutputPath>
 
-		<Version>0.1.7</Version>
+		<Version>0.1.8</Version>
 		<PackageId>pergerch.MathPack</PackageId>
 		<Title>MathPack</Title>
 		<Description>Calculating things.</Description>
 		<PackageTags>math</PackageTags>
 		<PackageProjectUrl>https://github.com/pergerch/MathPack</PackageProjectUrl>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
-		<PackageIcon>icon.png</PackageIcon>
 		<PackageIconUrl>https://raw.githubusercontent.com/SpatialFocus/XamarinForms.GaugeView/master/docs/icon.png</PackageIconUrl>
 		<RepositoryType>git</RepositoryType>
 		<RepositoryUrl>https://github.com/pergerch/MathPack.git</RepositoryUrl>
@@ -36,10 +35,6 @@
 	<ItemGroup>
 		<PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All" />
     	<PackageReference Include="PropertyChanged.Fody" Version="3.2.0" />
-	</ItemGroup>
-
-	<ItemGroup>
-		<None Include="..\..\docs\icon.png" Pack="true" PackagePath="\" />
 	</ItemGroup>
 
 </Project>
