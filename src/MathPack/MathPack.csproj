@@ -7,7 +7,7 @@
   <PropertyGroup>
 		<PackageOutputPath>..\..\.nuget</PackageOutputPath>
 
-		<Version>0.1.12</Version>
+		<Version>0.1.13</Version>
 		<PackageId>pergerch.MathPack</PackageId>
 		<Title>MathPack</Title>
 		<Description>Calculating things.</Description>
@@ -35,7 +35,7 @@
 
 	<ItemGroup>
 		<PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All" />
-		<PackageReference Include="PropertyChanged.Fody" Version="3.2.0" PrivateAssets="All" />
+		<PackageReference Include="PropertyChanged.Fody" Version="3.2.0" IncludeAssets="All" />
 	</ItemGroup>
 
 	<ItemGroup>
